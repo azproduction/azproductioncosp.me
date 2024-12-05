@@ -186,6 +186,15 @@ body {
 }
 
 .b-content__info {
+    font-size: 18px;
     margin: 8px 0;
-    opacity: 0.5;
+    color: #777;
+}
+
+.b-content__discount {
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 10px;
 }
