@@ -108,7 +108,7 @@
                 </a>
             </li>
             <li class="b-content__item">
-                <a href="mailto:azproductioncosp@gmail.com" target="_blank" class="b-content__link-button">
+                <a href="#" onclick="event.preventDefault();navigator.clipboard.writeText((t=>t.map((c,i)=>String.fromCharCode(c^'key'.charCodeAt(i%'key'.length))).join(''))(atob('Ch8JGQodHgYNAgoXCAoKGyUeBgQQB0saBAg=').split('').map(c=>c.charCodeAt(0)))).then(()=>{this.textContent='Copied to clipboard';setTimeout(()=>this.textContent='Email',2000);})" class="b-content__link-button">
                     Email
                 </a>
             </li>
