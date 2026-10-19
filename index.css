@@ -181,7 +181,7 @@ body {
     position: absolute;
     width: 60%;
     left: 50%;
-    transform: translate(-50%, -100px);
+    transform: translate(-50%, -154px);
     border-radius: 32px;
     background-image: linear-gradient(to right, #ff0967 0%, #ffc300  51%, #ff0967  100%);
     background-size: 200% auto;
